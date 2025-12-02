@@ -43,7 +43,7 @@ try:
 except Exception:  # pragma: no cover
     yaml = None
 
-# ✅ Use FastMCP from the fastmcp package (not mcp.server.*)
+# Use FastMCP from the fastmcp package (not mcp.server.*)
 from fastmcp import FastMCP
 
 # -----------------------------
